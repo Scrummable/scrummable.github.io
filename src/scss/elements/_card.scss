@@ -1,0 +1,19 @@
+.card {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.5rem;
+	box-shadow: 0 0 0.5rem rgba($clr_black, 0.6);
+	border: 1px solid lighten($clr_black, 60%);
+	padding: 1rem;
+	font-family: $font_face-main;
+	h2 {
+		font-family: $font_face-accent;
+		margin: 0 0 1rem 0;
+	}
+	img {
+		width: 100%;
+	}
+	@media (min-width: 60rem) {
+		width: 19rem;
+	}
+}
